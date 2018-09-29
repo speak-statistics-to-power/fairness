@@ -1,0 +1,225 @@
+body {
+  background-color: Snow;
+  font-family: "Lato";
+  font-size: larger;
+  line-height: 1.6;
+  text-align: justify;
+  margin-left: 10%;
+  margin-right: 10%;
+}
+
+h1 {
+  text-align: center;
+  font-size: 300%;
+  padding: 15px;
+}
+
+hr {
+  border: 3px solid SlateGray;
+  height: 0px;
+  color: SlateGray;
+  background-color: SlateGray;
+  margin-top: 7%;
+  margin-bottom: 7%;
+}
+
+.centered {
+  text-align: center;
+}
+
+.note {
+  color: rgb(89, 102, 115);
+  text-align: left;
+  line-height: 1;
+  padding-bottom: 15px;
+}
+
+li {
+  line-height: inherit;
+  font-size: inherit;
+}
+
+code {
+  padding: 0;
+  font-size: 90%;
+  color: black;
+  background-color: white;
+  border: 0px solid white;
+}
+
+a code {
+  color: #08c;
+}
+
+table{
+  border-collapse: collapse;
+  border-spacing: 0;
+  border:1px solid black;
+  background-color: GhostWhite;
+}
+
+.context {
+  margin-left: 20%
+}
+
+#our_header {
+  text-align: center;
+  background-color: GhostWhite;
+  padding: 5%;
+}
+
+#definitions {
+  border-collapse: False;
+  padding-right: 10%;
+}
+#definitions td {
+  padding: 12px;
+  border-top: 2px solid DimGray;
+  border-bottom: 2px solid DimGray;
+}
+
+#definitions .definition {
+  width: 35%;
+  text-align: left;
+  font-weight: bold;
+}
+
+.nicetable {
+  border-collapse: False
+  border:1px solid DimGray;
+}
+.nicetable td {
+  padding: 12px;
+  border: 2px solid DimGray;
+  background-color: GhostWhite;
+  text-align: center;
+  width: 10%;
+}
+.nicetable td.top {
+  border-bottom: 4px solid DimGray;
+}
+.nicetable td.left {
+  border-right: 4px solid DimGray;
+}
+.nicetable td#bad_cell {
+  background-color: LightGray;
+}
+
+
+#confusion_matrix {
+  border:1px solid DimGray;
+  border-collapse: False;
+  padding-bottom: 10px;
+  width: 90%;
+}
+#confusion_matrix td {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 2px solid DimGray;
+  text-align: center;
+  background-color: GhostWhite;
+  width: 17%;
+}
+
+#confusion_matrix td[highlight=faint] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 2px solid DimGray;
+  text-align: center;
+  background-color: Thistle;
+}
+
+#confusion_matrix td[highlight=strong] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 2px solid DimGray;
+  text-align: center;
+  background-color: Violet;
+}
+
+#confusion_matrix td[name=blank] {
+  padding-top: 12px;
+  padding-bottom: 12px;
+  border: 2px solid DimGray;
+  text-align: center;
+  background-color: DimGray;
+}
+
+#confusion_matrix td:hover:not([name=blank]) {
+  background-color: Violet;
+}
+
+#confusion_def span:hover {
+  background-color: Violet;
+}
+
+p.confusion {
+  font-weight: bold;
+}
+
+th{
+  border:0px solid #000000;
+}
+
+td{
+  border:0px solid #000000;
+}
+
+blockquote p {
+  margin-bottom: 0;
+  font-size: inherit;
+  line-height: inherit;
+  color: rgb(89, 102, 115);
+}
+
+button.link {
+  background:none!important;
+  color:#8C8C8C;
+  border:none;
+  padding:0!important;
+  font: inherit;
+  /*border is optional*/
+  /*border-bottom:1px solid #444;*/
+  cursor: pointer;
+}
+
+.result {
+  display: block;
+  border-style: ridge;
+  margin: 12px 0;
+  padding: 5px;
+  background-color: GhostWhite;
+  font-style: normal;
+}
+.result:before {
+  content: "Result.";
+  font-weight: bold;
+  font-style: normal;
+}
+
+.example {
+  display: block;
+  border-style: ridge;
+  background-color: GhostWhite;
+  font-style: normal;
+  padding: 0;
+  margin: 0;
+}
+.example .title {
+  background-color: MistyRose;
+  text-align: center;
+}
+.example .content {
+  margin-left: 10%;
+  margin-right: 10%;
+  padding: 5px;
+}
+
+.textbox {
+  display: block;
+  border-style: ridge;
+  margin: 12px 0;
+  padding: 5px;
+  background-color: GhostWhite;
+  font-style: normal;
+}
